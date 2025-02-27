@@ -15,3 +15,23 @@ Chiedi all’utente la sua email, controlla che sia nella lista di chi può acce
             - esco dal ciclo
         - se non è presente
             - l' utente NON può entrare alla festa
+
+# Dadi
+
+### Testo
+Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
+Stabilire il vincitore, in base a chi fa il punteggio più alto.
+Bonus
+Invece di generare il numero random per l'utente, chiedilo con un prompt!
+
+### Soluzione
+
+- creo una variabile per l'utente che generi un numero casuale da 1 a 6(incluso)
+- creo una variabile per il computer che generi un numero casuale da 1 a 6(incluso)
+- controllo chi fa il numero più alto
+    - SE il numero dell' utente > numero del computer
+        - utente vince
+    - ALTRIMENTI SE il numero del computer > numero dell' utente
+        - computer vince
+    ALTRIMENTI
+        - è un pareggio
