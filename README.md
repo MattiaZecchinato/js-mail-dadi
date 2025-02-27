@@ -35,3 +35,19 @@ Invece di generare il numero random per l'utente, chiedilo con un prompt!
         - computer vince
     ALTRIMENTI
         - è un pareggio
+
+### Soluzione Bonus
+
+- chiedo all' utente, tramite promt di inserire un numero da 1 a 6 
+- controllo se il numero è valido
+    - se è valido
+        - creo una variabile per il computer che generi un numero casuale da 1 a 6(incluso)
+        - controllo chi fa il numero più alto
+            - SE il numero dell' utente > numero del computer
+                - utente vince
+            - ALTRIMENTI SE il numero del computer > numero dell' utente
+                - computer vince
+            ALTRIMENTI
+                - è un pareggio
+    - se non è valido
+        - il numero non è valido
